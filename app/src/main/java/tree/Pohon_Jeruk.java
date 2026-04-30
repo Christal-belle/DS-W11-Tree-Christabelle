@@ -74,11 +74,9 @@ public class Pohon_Jeruk<T> {
         h.addChild(new Node<>("I"));
         h.addChild(new Node<>("J"));
         m.addChild(new Node<>("N"));
+
         
-        // Contoh: depth 2
-        int parameterUser = 2; 
-        pohon.print_at_depth(parameterUser);
-        
+        pohon.print_at_depth(2);
         // Contoh: depth 3
         pohon.print_at_depth(3);
     }
